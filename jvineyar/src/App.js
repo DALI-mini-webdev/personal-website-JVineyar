@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import forest from "./Mysterious Forest Cropped.png"
+import waterfall from "./IMG_5528.jpg"
 
 function App() {
   return (
@@ -29,10 +31,10 @@ function App() {
       <div className={"row"}>
 
        <div className={"column"}>
-         <img src="Mysterious Forest Cropped.png" style={{width:"100%"}} alt="Mysterious Forest"></img>
+         <img src={forest} style={{width:"100%"}} alt="Mysterious Forest"></img>
        </div>
        <div className={"column"}>
-         <img src="IMG_5528.jpg" style={{width:"100%"}} alt="Mysterious Waterfall"></img>
+         <img src={waterfall} style={{width:"100%"}} alt="Mysterious Waterfall"></img>
        </div>
 
       </div>
